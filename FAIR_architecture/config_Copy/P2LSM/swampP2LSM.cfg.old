@@ -1,0 +1,42 @@
+Sensors
+	gnss		ZED-F9P
+	minionRL	MinionGPS	MinionAHRS
+	minionFL	MinionGPS	MinionAHRS
+	minionRR	MinionGPS	MinionAHRS
+	minionFR	MinionGPS	MinionAHRS
+	ahrs		3DM-CV7-AHRS
+	dvl		a50-miniDVL
+	microstrain	msGNSS		msAHRS
+#end
+
+logicalPosition
+	gnss		ZED-F9P
+	minionRL	MinionGPS
+	minionFL	MinionGPS
+	minionRR	MinionGPS
+	minionFR	MinionGPS
+#end
+
+logicalAttitude
+	ahrs		3DM-CV7-AHRS
+	minionRL	MinionAHRS
+	minionFL	MinionAHRS
+	minionRR	MinionAHRS
+	minionFR	MinionAHRS
+#end
+
+logicalSpeed
+	gnss		ZED-F9P
+	minionRL	MinionGPS
+	minionFL	MinionGPS
+	minionRR	MinionGPS
+	minionFR	MinionGPS
+#end
+
+logicalLinearRate
+	dvl		a50-miniDVL
+#end
+
+logicalAngularRate
+	ahrs		3DM-CV7-AHRS
+#end

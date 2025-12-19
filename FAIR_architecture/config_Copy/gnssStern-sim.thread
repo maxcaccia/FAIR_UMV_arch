@@ -1,0 +1,19 @@
+======================================
+#name				gnssStern-sim
+======================================
+#class				SIMULATOR
+#module				GNSS_SIM
+#policy				SCHED_FIFO
+#priority			95
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.80
+#serviceUdpPort		2210
+#cmdRecvUdpPort		2211
+#dataRecvUdpPort	2212
+#command_to
+	SWAMP-sim
+#end
+#subscribe_to
+	SWAMP-sim
+#end

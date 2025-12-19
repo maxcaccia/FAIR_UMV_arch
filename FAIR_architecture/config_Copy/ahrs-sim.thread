@@ -1,0 +1,19 @@
+======================================
+#name				ahrs-sim
+======================================
+#class				SIMULATOR
+#module				MSAHRS_SIM
+#policy				SCHED_FIFO
+#priority			95
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.80
+#serviceUdpPort		2300
+#cmdRecvUdpPort		2301
+#dataRecvUdpPort	2302
+#command_to
+	SWAMP-sim
+#end
+#subscribe_to
+	SWAMP-sim
+#end

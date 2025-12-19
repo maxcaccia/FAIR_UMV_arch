@@ -1,0 +1,24 @@
+======================================
+#name				hemisphere-driver
+======================================
+#class				DRIVER
+#module				DAGPS
+#policy				SCHED_FIFO
+#priority			95
+#type				SYNCHRONOUS
+#time_value			100
+#ip_address			192.168.29.180
+#serviceUdpPort		6100
+#cmdRecvUdpPort		6101
+#dataRecvUdpPort	6102
+#virtual_device		hemisphere-sim
+#actual_device		RS-232
+#tty				/dev/ttyUSB0
+#rs232blocking		false
+#rs232canonicalMode	false
+#rs232baudRate		B19200
+#rs232parityEnable	0
+#rs232parityType	0
+#rs232stopBits		0
+#rs232csNumber		CS8
+

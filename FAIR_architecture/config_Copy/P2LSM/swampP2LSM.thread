@@ -1,0 +1,21 @@
+====================================
+#name				swampP2LSM
+====================================
+#class				CNTRL_ARCH_MODULE
+#module				P2LSM
+#policy				SCHED_FIFO
+#priority			94
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.160
+#serviceUdpPort		6000
+#cmdRecvUdpPort		6001
+#dataRecvUdpPort	6002
+#command_to
+#end
+#subscribe_to
+	ahrs
+#end
+
+
+

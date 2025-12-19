@@ -1,0 +1,22 @@
+====================================
+#name				BlueBoatLPRI
+====================================
+#class				CNTRL_ARCH_MODULE
+#module				BLUEBOAT_LPRI
+#policy				SCHED_FIFO
+#priority			93
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.181
+#serviceUdpPort		7000
+#cmdRecvUdpPort		7001
+#dataRecvUdpPort	7002
+#command_to
+	BlueBoat
+#end
+#subscribe_to
+	BlueBoat
+#end
+
+
+

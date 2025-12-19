@@ -1,0 +1,17 @@
+======================================
+#name				SWAMP-sim
+======================================
+#class				SIMULATOR
+#module				SWAMP_SIM
+#policy				SCHED_FIFO
+#priority			95
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.80
+#serviceUdpPort		1100
+#cmdRecvUdpPort		1101
+#dataRecvUdpPort	1102
+#command_to
+#end
+#subscribe_to
+#end

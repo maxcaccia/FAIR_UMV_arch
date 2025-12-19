@@ -1,0 +1,24 @@
+======================================
+#name				gnssBow
+======================================
+#class				DRIVER
+#module				GNSS
+#policy				SCHED_FIFO
+#priority			95
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.160
+#serviceUdpPort		6110
+#cmdRecvUdpPort		6111
+#dataRecvUdpPort	6112
+#virtual_device		gnssBow-sim
+#actual_device		RS-232
+#tty				/dev/ttyUSB0
+#rs232blocking		false
+#rs232canonicalMode	false
+#rs232baudRate		B9600
+#rs232parityEnable	0
+#rs232parityType	0
+#rs232stopBits		0
+#rs232csNumber		CS8
+

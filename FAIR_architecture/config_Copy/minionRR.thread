@@ -1,0 +1,17 @@
+====================================
+#name				minionRR
+====================================
+#class				DRIVER
+#module				MINION
+#policy				SCHED_FIFO
+#priority			95
+#type				SYNCHRONOUS
+#time_value			100
+#ip_address			192.168.26.203
+#serviceUdpPort		5300
+#cmdRecvUdpPort		5301
+#dataRecvUdpPort	3969
+#virtual_device		minionRR-sim
+#actual_device		UDP_SOCKET
+#device_ip_address	192.168.29.203
+#device_port		3968

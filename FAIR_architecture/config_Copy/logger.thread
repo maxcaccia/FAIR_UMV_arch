@@ -1,0 +1,22 @@
+====================================
+#name				logger
+====================================
+#class				CNTRL_ARCH_MODULE
+#module				LOGGER
+#policy				SCHED_FIFO
+#priority			80
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.29.180
+#serviceUdpPort		8000
+#cmdRecvUdpPort		8001
+#dataRecvUdpPort	8002
+#command_to
+#end
+#subscribe_to
+	3DM-CV7-AHRS-driver
+	hemisphere-driver
+#end
+
+
+

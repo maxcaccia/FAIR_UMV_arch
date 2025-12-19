@@ -1,0 +1,17 @@
+====================================
+#name				minionFL
+====================================
+#class				DRIVER
+#module				MINION
+#policy				SCHED_FIFO
+#priority			93
+#type				SYNCHRONOUS
+#time_value			100
+#ip_address			192.168.26.202
+#serviceUdpPort		5200
+#cmdRecvUdpPort		5201
+#dataRecvUdpPort	3969
+#virtual_device		minionFL-sim
+#actual_device		UDP_SOCKET
+#device_ip_address	192.168.29.202
+#device_port		3968

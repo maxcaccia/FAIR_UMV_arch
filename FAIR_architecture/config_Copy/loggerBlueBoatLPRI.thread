@@ -1,0 +1,21 @@
+====================================
+#name				loggerBlueBoatLPRI
+====================================
+#class				CNTRL_ARCH_MODULE
+#module				LOGGER_BLUEBOAT_LPRI
+#policy				SCHED_FIFO
+#priority			80
+#type				SYNCHRONOUS
+#time_value			100
+#ip_address			192.168.26.181
+#serviceUdpPort		8000
+#cmdRecvUdpPort		8001
+#dataRecvUdpPort	8002
+#command_to
+#end
+#subscribe_to
+	BlueBoatLPRI
+#end
+
+
+

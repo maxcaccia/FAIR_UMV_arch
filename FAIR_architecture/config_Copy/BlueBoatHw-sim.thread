@@ -1,0 +1,19 @@
+======================================
+#name				BlueBoatHw-sim
+======================================
+#class				SIMULATOR
+#module				BLUEBOAT_HW_SIM
+#policy				SCHED_FIFO
+#priority			95
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.160
+#serviceUdpPort		2020
+#cmdRecvUdpPort		3968
+#dataRecvUdpPort	2022
+#command_to
+	BlueBoat-sim
+#end
+#subscribe_to
+	BlueBoat-sim
+#end

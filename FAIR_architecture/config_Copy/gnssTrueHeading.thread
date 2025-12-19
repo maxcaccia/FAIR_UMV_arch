@@ -1,0 +1,22 @@
+====================================
+#name				logger
+====================================
+#class				CNTRL_ARCH_MODULE
+#module				DUALANTENNAHEADING
+#policy				SCHED_FIFO
+#priority			80
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.160
+#serviceUdpPort		8100
+#cmdRecvUdpPort		8101
+#dataRecvUdpPort	8102
+#command_to
+#end
+#subscribe_to
+	gnssStern
+	gnssBow
+#end
+
+
+

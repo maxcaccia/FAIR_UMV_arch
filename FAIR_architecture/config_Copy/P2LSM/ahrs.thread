@@ -1,0 +1,23 @@
+========================================
+#name				ahrs
+========================================
+#class				DRIVER
+#module				MIP
+#policy				SCHED_FIFO
+#priority			95
+#type				SYNCHRONOUS
+#time_value			50
+#ip_address			192.168.26.80
+#serviceUdpPort		6200
+#cmdRecvUdpPort		6201
+#dataRecvUdpPort	6202
+#virtual_device		ahrs-sim
+#actual_device		RS-232
+#tty				/dev/ttyACM0
+#rs232blocking		false
+#rs232canonicalMode	false
+#rs232baudRate		B115200
+#rs232parityEnable	0
+#rs232parityType	0
+#rs232stopBits		0
+#rs232csNumber		CS8
